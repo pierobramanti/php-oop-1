@@ -24,7 +24,7 @@ class Movie {
 
 // Creazione degli oggetti
 $movie1 = new Movie("La finestra sul cortile", "Alfred Hitchcock", "Thriller");
-
+$movie2 = new Movie("Il diavolo veste Prada", "David Frankel", "Commedia");
 
 ?>
 
