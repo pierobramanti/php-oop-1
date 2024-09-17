@@ -22,6 +22,10 @@ class Movie {
 
 }
 
+// Creazione degli oggetti
+$movie1 = new Movie("La finestra sul cortile", "Alfred Hitchcock", "Thriller");
+
+
 ?>
 
 
