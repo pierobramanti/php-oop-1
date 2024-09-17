@@ -15,9 +15,15 @@ class Movie {
         $this->genre = $_genre;
     }
 
+    // Metodo pubblico
+    public function details() {
+        return "The Movie's title is: " . $this->title . ", it's been directed by: " . $this->director . " and the genre is: " . $this->genre . ".";
+    }
+
 }
 
 ?>
+
 
 
 <!DOCTYPE html>
