@@ -17,7 +17,8 @@ class Movie {
 
     // Metodo pubblico
     public function details() {
-        return "The Movie's title is: " . $this->title . ", it's been directed by: " . $this->director . " and the genre is: " . $this->genre . ".";
+        return "The movie's title is " . $this->title . ", it was directed by " . $this->director . ", and the genre is " . $this->genre . ".";
+
     }
 
 }
@@ -25,6 +26,8 @@ class Movie {
 // Creazione degli oggetti
 $movie1 = new Movie("La finestra sul cortile", "Alfred Hitchcock", "Thriller");
 $movie2 = new Movie("Il diavolo veste Prada", "David Frankel", "Commedia");
+
+
 
 ?>
 
