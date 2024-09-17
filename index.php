@@ -27,7 +27,10 @@ class Movie {
 $movie1 = new Movie("La finestra sul cortile", "Alfred Hitchcock", "Thriller");
 $movie2 = new Movie("Il diavolo veste Prada", "David Frankel", "Commedia");
 
-
+// Stampa dei dettagli degli oggetti
+echo $movie1->details();
+echo "<hr>";
+echo $movie2->details();
 
 ?>
 
